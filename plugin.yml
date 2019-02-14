@@ -1,0 +1,14 @@
+name: MOTDFlasher
+version: 1.0.0
+main: InspectorGadget\MOTDFlasher\Loader
+api: 3.0.0
+author: InspectorGadget
+commands:
+  mtd:
+    description: "Main command for MOTD Flasher"
+permissions:
+  motd:
+    default: op
+    children:
+      motd.flasher:
+        description: "Perm node for MOTDFlasher"
